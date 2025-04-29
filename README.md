@@ -26,9 +26,8 @@
     Version Control: Git
 
 📁 Project Structure
-    plaintext
-    Copy
-    Edit
+
+   
     Jobboard-Job-Seeking-Platform/
     ├── admin-panel/       # Admin dashboard and management tools
     ├── auth/              # User authentication scripts
@@ -50,6 +49,17 @@
     ├── search.php         # Search results page
     ├── README.md          # Project documentation
     └── .gitattributes     # Git attributes file
+## 📸 Screenshots
+
+### 🏠 Home Page  
+![Home](image/homepage.png)
+
+### ℹ️ About Page  
+![About](image/about.png)
+
+### 📞 Contact Page  
+![Contact](image/contact.png)
+
 ⚙️ Getting Started
     Prerequisites
     PHP 7.x or higher
