@@ -43,7 +43,7 @@
 | 📞 Contact Page       | ![Contact](image/contact.png)       |
 | 🔎 Job Search Page    | ![Search](image/search.png)         |
 | 🧾 Application Form   | ![Apply](image/apply.png)           |
-| 🧑‍💼 Admin Dashboard. |[Admin](imageadmin-dashboard.png).
+| 🧑‍💼 Admin Dashboard.  |[Admin](imageadmin-dashboard.png)
 
 
 ---
