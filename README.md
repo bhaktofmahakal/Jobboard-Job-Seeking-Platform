@@ -34,6 +34,20 @@
 
 ---
 
+
+
+| Page                  | Preview                             |
+| --------------------- | ----------------------------------- |
+| 🏠 Home Page          | ![Home](image/homepage.png)         |
+| ℹ️ About Page         | ![About](image/about.png)           |
+| 📞 Contact Page       | ![Contact](image/contact.png)       |
+| 🔎 Job Search Page    | ![Search](image/search.png)         |
+| 🧾 Application Form   | ![Apply](image/apply.png)           |
+| 🧑‍💼 Admin Dashboard. |[Admin(imageadmin-dashboard.png).
+
+
+---
+
 ## 📁 Project Structure
 
 <details>
@@ -61,20 +75,7 @@ Jobboard-Job-Seeking-Platform/
 ├── search.php         # Search result page
 └── README.md          # 📘 This file
 
-
-
-
-
-| Page                  | Preview                             |
-| --------------------- | ----------------------------------- |
-| 🏠 Home Page          | ![Home](image/homepage.png)         |
-| ℹ️ About Page         | ![About](image/about.png)           |
-| 📞 Contact Page       | ![Contact](image/contact.png)       |
-| 🔎 Job Search Page    | ![Search](image/search.png)         |
-| 🧾 Application Form   | ![Apply](image/apply.png)           |
-| 🧑‍💼 Admin Dashboard. |[Admin(imageadmin-dashboard.png).
-
-
+---
 
 ⚙️ Getting Started
 
@@ -87,6 +88,9 @@ MySQL Server
 Apache/Nginx Web Server (XAMPP/WAMP recommended)
 
 Git (for cloning)
+
+
+---
 
 🚦 Installation Guide
 
@@ -119,6 +123,10 @@ Visit in browser:
 
 http://localhost/Jobboard-Job-Seeking-Platform/
 
+
+
+---
+
 🤝 Contributing
 
 We love contributions! Follow the steps below:
@@ -141,14 +149,18 @@ git push origin feature/YourFeature
 
 Open a Pull Request with details and screenshots!
 
+
+---
+
 📄 License
 
 
 This project is licensed under the MIT License.
 Feel free to use, modify, and distribute.
 
-📬 Contact
 
+---
+📬 Contact
 
 Developer: Utsav Mishra
 📧 Email: utsavmishraa005@gmail.com
