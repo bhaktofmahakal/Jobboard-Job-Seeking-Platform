@@ -1,137 +1,62 @@
-💼 Jobboard: Job Seeking Platform
-   Jobboard is a PHP-based web application designed to connect job seekers with employers. The platform allows users to browse job listings, apply for positions, and manage their profiles, while employers can post job openings and manage applications through an intuitive admin panel.
-    
-🚀 Features
-    User Authentication: Secure login and registration system for job seekers and employers.
-    
-    Job Listings: Browse available job opportunities with detailed descriptions.
-    
-    Job Application: Apply for jobs directly through the platform.
-    
-    Admin Panel: Employers can post new jobs, manage existing listings, and review applications.
-    
-    Responsive Design: Optimized for desktops, tablets, and mobile devices.
-    
-    Search Functionality: Search for jobs based on keywords and categories.
-    
-    Contact Page: Dedicated page for user inquiries and support.
+# 💼 Jobboard: Job Seeking Platform
 
-🛠️ Tech Stack
-    Frontend: HTML5, SCSS/CSS3, JavaScript
-    
-    Backend: PHP
-    
-    Database: MySQL
-    
-    Version Control: Git
+**Jobboard** is a PHP-based full-stack web application built to bridge the gap between job seekers and employers. The platform supports **user registrations**, **job applications**, **profile management**, and a robust **admin panel** for employers to post and manage job listings.
 
-📁 Project Structure
+<p align="center">
+  <img src="https://img.shields.io/badge/Built%20With-PHP-blue?style=for-the-badge&logo=php&logoColor=white">
+  <img src="https://img.shields.io/badge/Database-MySQL-yellow?style=for-the-badge&logo=mysql&logoColor=black">
+  <img src="https://img.shields.io/badge/Styling-HTML5%2C%20SCSS%2C%20CSS3-orange?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/Version%20Control-Git-black?style=for-the-badge&logo=git&logoColor=white">
+</p>
 
-   
-    Jobboard-Job-Seeking-Platform/
-    ├── admin-panel/       # Admin dashboard and management tools
-    ├── auth/              # User authentication scripts
-    ├── categories/        # Job categories
-    ├── config/            # Database configuration files
-    ├── css/               # Stylesheets
-    ├── fonts/             # Font files
-    ├── general/           # General utilities and helpers
-    ├── images/            # Image assets
-    ├── includes/          # Reusable PHP components (e.g., header, footer)
-    ├── jobs/              # Job-related scripts and data
-    ├── js/                # JavaScript files
-    ├── scss/              # SCSS files
-    ├── users/             # User profile and account management
-    ├── 404.php            # Custom 404 error page
-    ├── about.php          # About us page
-    ├── contact.php        # Contact information and form
-    ├── index.php          # Homepage
-    ├── search.php         # Search results page
-    ├── README.md          # Project documentation
-    └── .gitattributes     # Git attributes file
-## 📸 Screenshots
+---
 
-### 🏠 Home Page  
-![Home](image/homepage.png)
+## 📌 Features
 
-### ℹ️ About Page  
-![About](image/about.png)
+- 🔐 **User Authentication**: Secure login & registration for both job seekers and employers.
+- 📃 **Job Listings**: Explore job postings with detailed info.
+- 📤 **Job Application System**: Apply directly through the platform.
+- 🧑‍💼 **Admin Panel**: Employers can post/manage jobs & review applications.
+- 🔍 **Search Jobs**: Filter based on keywords or categories.
+- 💬 **Contact Page**: Direct user support form.
+- 📱 **Fully Responsive**: Works flawlessly on desktop, tablet, and mobile.
 
-### 📞 Contact Page  
-![Contact](image/contact.png)
+---
 
-⚙️ Getting Started
-    Prerequisites
-    PHP 7.x or higher
-    
-    MySQL or compatible database
-    
-    Web server (e.g., Apache, Nginx)
+## 🧰 Tech Stack
 
-Installation
-    Clone the Repository
-    
-    bash
-    Copy
-    Edit
-    git clone https://github.com/bhaktofmahakal/Jobboard-Job-Seeking-Platform.git
-Set Up the Database
-  
-  Create a new MySQL database named jobboard.
-  
-  Import the provided SQL file (if available) to set up the necessary tables and data.
-  
-  Configure Database Connection
-  
-  Navigate to the config/ directory.
-  
-  Open the database configuration file (e.g., config.php) and update the database credentials:
-  
-  php
-  Copy
-  Edit
-  define('DB_SERVER', 'localhost');
-  define('DB_USERNAME', 'your_username');
-  define('DB_PASSWORD', 'your_password');
-  define('DB_NAME', 'jobboard');
-  Deploy the Application
-  
-  Place the project folder in your web server's root directory (e.g., htdocs for XAMPP).
-  
-  Start your web server and navigate to http://localhost/Jobboard-Job-Seeking-Platform/ in your browser.
+| Layer       | Tech Used                  |
+|-------------|----------------------------|
+| Frontend    | HTML5, SCSS, CSS3, JavaScript |
+| Backend     | PHP                         |
+| Database    | MySQL                       |
+| Versioning  | Git                         |
 
-📸 Screenshots
-  Include screenshots of the homepage, job listings, job application page, and admin panel here.
+---
 
-🤝 Contributing
-   Contributions are welcome! To contribute:
+## 📁 Project Structure
 
-Fork the repository.
-
-    Create a new branch:
-
-    bash
-    Copy
-    Edit
-    git checkout -b feature/YourFeature
-    Commit your changes:
-    
-    bash
-    Copy
-    Edit
-    git commit -m "Add YourFeature"
-    Push to the branch:
-    
-    bash
-    Copy
-    Edit
-    git push origin feature/YourFeature
-    Open a pull request describing your changes.
-
-📄 License
-      This project is licensed under the MIT License.
-
-📬 Contact
-    For any inquiries or feedback, please contact :utsavmishraa005@gmail.com
+<details>
+<summary>Click to view folder layout</summary>
 
 
+Jobboard-Job-Seeking-Platform/
+├── admin-panel/       # Admin dashboard and tools
+├── auth/              # Login, Register, Logout functionality
+├── categories/        # Job categories management
+├── config/            # Database connection and settings
+├── css/               # Compiled CSS
+├── fonts/             # Custom fonts
+├── general/           # Utility and helper scripts
+├── images/            # Images and assets
+├── includes/          # Reusable UI components (e.g. header.php)
+├── jobs/              # Job-related logic and views
+├── js/                # Frontend JS
+├── scss/              # Styling sources
+├── users/             # User profile handling
+├── 404.php            # Custom error page
+├── about.php          # About Us page
+├── contact.php        # Contact form
+├── index.php          # Landing/Home page
+├── search.php         # Search result page
+└── README.md          # 📘 This file
