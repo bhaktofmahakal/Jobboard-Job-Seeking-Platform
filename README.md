@@ -94,6 +94,7 @@ Clone the Repository
 
 git clone https://github.com/bhaktofmahakal/Jobboard-Job-Seeking-Platform.git
 cd Jobboard-Job-Seeking-Platform
+
 Set Up the Database
 
 Create a new MySQL database named jobboard
@@ -101,6 +102,7 @@ Create a new MySQL database named jobboard
 Import the provided .sql file (if available) located in the config/ folder
 
 Configure DB Credentials
+
 Open the file at: config/config.php
 
 define('DB_SERVER', 'localhost');
