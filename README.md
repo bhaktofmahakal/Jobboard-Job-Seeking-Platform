@@ -39,7 +39,7 @@
 <details>
 <summary>Click to view folder layout</summary>
 
-
+```bash
 Jobboard-Job-Seeking-Platform/
 ├── admin-panel/       # Admin dashboard and tools
 ├── auth/              # Login, Register, Logout functionality
@@ -60,3 +60,17 @@ Jobboard-Job-Seeking-Platform/
 ├── index.php          # Landing/Home page
 ├── search.php         # Search result page
 └── README.md          # 📘 This file
+
+
+
+
+
+| Page                  | Preview                             |
+| --------------------- | ----------------------------------- |
+| 🏠 Home Page          | ![Home](image/homepage.png)         |
+| ℹ️ About Page         | ![About](image/about.png)           |
+| 📞 Contact Page       | ![Contact](image/contact.png)       |
+| 🔎 Job Search Page    | ![Search](image/search.png)         |
+| 🧾 Application Form   | ![Apply](image/apply.png)           |
+| 🧑‍💼 Admin Dashboard. |[Admin(imageadmin-dashboard.png).
+
