@@ -34,16 +34,13 @@
 
 ---
 
+## 📸 Core Pages – Screenshots
 
-
-| Page                  | Preview                             |
-| --------------------- | ----------------------------------- |
-| 🏠 Home Page          | ![Home](image/homepage.png)         |
-| ℹ️ About Page         | ![About](image/about.png)           |
-| 📞 Contact Page       | ![Contact](image/contact.png)       |
-| 🔎 Job Search Page    | ![Search](image/search.png)         |
-| 🧾 Application Form   | ![Apply](image/apply.png)           |
-| 🧑‍💼 Admin Dashboard.  |[Admin](imageadmin-dashboard.png)
+| Page/Section     | Screenshot                        | Description                              |
+|------------------|------------------------------------|------------------------------------------|
+| 🏠 Home Page      | ![Home](image/homepage.png)        | Main landing page of the website         |
+| ℹ️ About Page     | ![About](image/about.png)          | Project information and team overview    |
+| 📨 Contact Page   | ![Contact](image/contact.png)      | Contact form with name, email, and message |
 
 
 ---
