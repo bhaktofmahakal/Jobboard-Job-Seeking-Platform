@@ -51,29 +51,28 @@
 ## 📁 Project Structure
 
 <details>
-<summary>Click to view folder layout</summary>
+<summary>Click to view</summary>
 
-```bash
-Jobboard-Job-Seeking-Platform/
-├── admin-panel/       # Admin dashboard and tools
-├── auth/              # Login, Register, Logout functionality
-├── categories/        # Job categories management
-├── config/            # Database connection and settings
-├── css/               # Compiled CSS
-├── fonts/             # Custom fonts
-├── general/           # Utility and helper scripts
-├── images/            # Images and assets
-├── includes/          # Reusable UI components (e.g. header.php)
-├── jobs/              # Job-related logic and views
-├── js/                # Frontend JS
-├── scss/              # Styling sources
-├── users/             # User profile handling
-├── 404.php            # Custom error page
-├── about.php          # About Us page
-├── contact.php        # Contact form
-├── index.php          # Landing/Home page
-├── search.php         # Search result page
-└── README.md          # 📘 This file
+    Jobboard-Job-Seeking-Platform/
+    ├── admin-panel/       # Admin dashboard and tools
+    ├── auth/              # Login, Register, Logout functionality
+    ├── categories/        # Job categories management
+    ├── config/            # Database connection and settings
+    ├── css/               # Compiled CSS
+    ├── fonts/             # Custom fonts
+    ├── general/           # Utility and helper scripts
+    ├── images/            # Images and assets
+    ├── includes/          # Reusable UI components (e.g. header.php)
+    ├── jobs/              # Job-related logic and views
+    ├── js/                # Frontend JS
+    ├── scss/              # Styling sources
+    ├── users/             # User profile handling
+    ├── 404.php            # Custom error page
+    ├── about.php          # About Us page
+    ├── contact.php        # Contact form
+    ├── index.php          # Landing/Home page
+    ├── search.php         # Search result page
+    └── README.md          # 📘 This file
 
 ---
 
@@ -81,13 +80,13 @@ Jobboard-Job-Seeking-Platform/
 
 ✅ Prerequisites
 
-PHP 7.x or above
-
-MySQL Server
-
-Apache/Nginx Web Server (XAMPP/WAMP recommended)
-
-Git (for cloning)
+    PHP 7.x or above
+    
+    MySQL Server
+    
+    Apache/Nginx Web Server (XAMPP/WAMP recommended)
+    
+    Git (for cloning)
 
 
 ---
@@ -96,24 +95,24 @@ Git (for cloning)
 
 Clone the Repository
 
-git clone https://github.com/bhaktofmahakal/Jobboard-Job-Seeking-Platform.git
-cd Jobboard-Job-Seeking-Platform
+    git clone https://github.com/bhaktofmahakal/Jobboard-Job-Seeking-Platform.git
+    cd Jobboard-Job-Seeking-Platform
 
 Set Up the Database
 
-Create a new MySQL database named jobboard
-
-Import the provided .sql file (if available) located in the config/ folder
-
-Configure DB Credentials
+    Create a new MySQL database named jobboard
+    
+    Import the provided .sql file (if available) located in the config/ folder
+    
+    Configure DB Credentials
 
 Open the file at: config/config.php
 
-define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
-define('DB_NAME', 'jobboard');
-Run Locally
+      define('DB_SERVER', 'localhost');
+      define('DB_USERNAME', 'root');
+      define('DB_PASSWORD', '');
+      define('DB_NAME', 'jobboard');
+      Run Locally
 
 Place the project folder in the htdocs/ directory of XAMPP or root of your web server
 
@@ -121,7 +120,7 @@ Start Apache & MySQL
 
 Visit in browser:
 
-http://localhost/Jobboard-Job-Seeking-Platform/
+    http://localhost/Jobboard-Job-Seeking-Platform/
 
 
 
@@ -131,38 +130,40 @@ http://localhost/Jobboard-Job-Seeking-Platform/
 
 We love contributions! Follow the steps below:
 
-Fork the repository
-
-Create your feature branch
-
-
-git checkout -b feature/YourFeature
-
-Commit your changes
-
-
-git commit -m "Add YourFeature"
-
-Push to your branch
-
-git push origin feature/YourFeature
-
-Open a Pull Request with details and screenshots!
+    Fork the repository
+    
+    Create your feature branch
+    
+    
+    git checkout -b feature/YourFeature
+    
+    Commit your changes
+    
+    
+    git commit -m "Add YourFeature"
+    
+    Push to your branch
+    
+    git push origin feature/YourFeature
+    
+    Open a Pull Request with details and screenshots!
 
 
 ---
 
 📄 License
 
-
-This project is licensed under the MIT License.
-Feel free to use, modify, and distribute.
-
+    This project is licensed under the MIT License.
+    Feel free to use, modify, and distribute.
 
 ---
+
 📬 Contact
 
 Developer: Utsav Mishra
+
 📧 Email: utsavmishraa005@gmail.com
+
 🌐 GitHub: github.com/bhaktofmahakal
+
 🔗 LinkedIn: linkedin.com/in/utsav-mishra1
